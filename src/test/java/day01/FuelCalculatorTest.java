@@ -1,4 +1,4 @@
-package day_01;
+package day01;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class FuelCalculatorTest {
 
-    static final String massInputFile = "day_01/input.txt";
+    static final String massInputFile = "day01/input.txt";
     static List<Integer> massList = new ArrayList<>();
 
     @BeforeAll

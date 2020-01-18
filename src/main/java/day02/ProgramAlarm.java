@@ -1,6 +1,4 @@
-package day_02;
-
-import java.util.Arrays;
+package day02;
 
 public class ProgramAlarm {
 

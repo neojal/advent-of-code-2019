@@ -1,4 +1,4 @@
-package day_02;
+package day02;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ProgramAlarmTest {
 
-    static final String programInputFile = "day_02/input.txt";
+    static final String programInputFile = "day02/input.txt";
     static int[] inputProgram;
 
     @BeforeAll
