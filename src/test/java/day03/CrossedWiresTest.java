@@ -2,6 +2,7 @@ package day03;
 
 
 import day02.ProgramAlarmTest;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -12,6 +13,8 @@ import java.util.List;
 
 public class CrossedWiresTest {
 
+    //input01.txt, example from readme
+    //input.txt, actual input
     static final String programInputFile = "day03/input.txt";
     static String[] path01, path02;
 
@@ -29,7 +32,8 @@ public class CrossedWiresTest {
 
     @Test
     void findClosestIntersection() {
-        CrossedWires.getClosestIntersection(path01, path02);
-    }
 
+        Assertions.assertEquals(2427, CrossedWires.getClosestIntersection(path01, path02));
+
+    }
 }
